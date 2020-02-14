@@ -443,6 +443,15 @@ button {
   font-weight: bolder;
 }
 
+#contact-submit:hover {
+  background: #942724;
+  color: white;
+}
+
+#contact-submit {
+  transition: 0.3s;
+}
+
 input:focus {
   outline: none !important;
   border: none !important;
