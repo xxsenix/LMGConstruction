@@ -28,6 +28,8 @@ $('a[href*="#"]')
   .not('[href="#0"]')
   .click(function(event) {
     // On-page links
+
+    location.pathname;
     if (
       location.pathname.replace(/^\//, "") ==
         this.pathname.replace(/^\//, "") &&
